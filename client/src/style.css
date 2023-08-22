@@ -1,0 +1,145 @@
+.bg-theme{
+    background-color: lightblue;
+}
+
+
+
+.btn:hover {
+   background-color:white; 
+}
+
+.web-banner {
+    background: url('https://sokoglam.com/cdn/shop/files/8.14-SGWebsite-Etude-25_-off-Desktop_6ab4c5b7-4ccc-4667-8536-e677ac83ee80_1600x.png?v=1692018675') no-repeat;
+    background-size: cover;
+    background-position: right center;
+    height: 500px; 
+}
+
+
+.text-overlay {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    z-index: 1;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 40%;
+    left: 19%;
+    transform: translate(-70%, -50%);
+    font-size: 70px;
+    font-weight:450;
+    color: black;
+    text-align: left;
+    z-index: 2;
+}
+
+.overlay-texts {
+    position: absolute;
+    top: 65%;
+    left: 23%;
+    transform: translate(-70%, -50%);
+    font-size: 20px;
+    font-weight:350;
+    color: black;
+    text-align: left;
+    z-index: 2;
+}
+
+.btnPink{
+    display: inline-block;
+    padding: 10px 50px;
+    border: 1px;;
+    background-color: hotpink;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transform: translate(35%, 850%);
+    transition: background-color 0.3s ease;
+  }
+  
+  .btnPink:hover {
+    background-color: crimson;
+  }
+  
+
+/* Add this to your existing CSS or create a new CSS file */
+.category-box {
+    background-color: khaki;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .category-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+  }
+  .brand-image {
+    position: relative;
+    overflow: hidden;
+    background-color: #E6F7FF; /* Light blue background color */
+}
+
+.brand-image img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    transition: transform 0.3s;
+}
+
+.card:hover .brand-image img {
+    transform: scale(1.1); /* Zoom in on hover */
+}
+/* Category.css */
+
+.category-title {
+  color: #007BFF;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.category-description {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.category-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Adjust the gap between items */
+}
+
+.category-item {
+  flex: 0 0 calc(33.33% - 20px); /* Three items in a row with 20px gap */
+  padding: 15px;
+  border-radius: 20px; /* Rounded corners */
+  background-color: #f7f7f7;
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+}
+
+.category-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.category-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.category-item h5 {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
