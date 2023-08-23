@@ -1,4 +1,4 @@
-## SoKOGLAM
+ko## SoKOGLAM
 
 https://curious-calf-beret.cyclic.cloud/
 
@@ -78,5 +78,5 @@ The application utilizes MongoDB as the database for storing information related
 
 ## Image upload
 
-Product images are securely stored using Firebase Storage. This ensures efficient and secure handling of images associated with your bakery and sweet items.
+Product images are securely stored using Firebase Storage. This ensures efficient and secure handling of images associated with your skin care items.
 
